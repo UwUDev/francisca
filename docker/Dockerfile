@@ -1,4 +1,4 @@
-FROM rust:1.94-slim-trixie AS builder
+FROM rust:1.99-slim-trixie AS builder
 
 # Build information arguments
 ARG BUILD_COMMIT=unknown
